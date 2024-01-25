@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font-Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar-container">
+        <div class="logo">
+            <h1>Chetan</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </div>
+
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="mobile-navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+    </div>
+
+    <!-- Home Section  -->
+    <div class="main" id="home">
+        <div class="profile-img">
+            <img src="https://images.unsplash.com/photo-1619533394727-57d522857f89?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+        </div>
+        <div class="desc">
+            <p>Hello, I'm</p>
+            <h1>Chetan Singh</h1>
+            <h3>Frontend Developer</h3>
+            <div class="button-container">
+                <button onclick="downloadPDF()" class="cvbtn">Download CV</button>
+                <a href="#contact"><button class="contactbtn">Contact Info</button></a>
+            </div>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/chetan-singh-5969122ab/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Crazyshinobi/" target="_blank"><i class="fa-brands fa-github"></i>
+            </div></a>
+        </div>
+    </div>
+
+
+    <!-- About  Section-->
+    <div id="about">
+        <h5>Get to Know More</h5>
+        <h1>About me</h1>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1536766820879-059fec98ec0a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+            </div>
+            <div class="about-desc">
+                <div class="qualification">
+                    <div class="experience">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>Experience</h3>
+                        <p>6 months</p>
+                        <p>Data Analyst</p>
+                    </div>
+                    <div class="education">
+                        <i class="fa-solid fa-school"></i>
+                        <h3>Education</h3>
+                        <p>B.Sc(H) in Electronics (Bachelor's Degree)</p>
+                        <p>Master of Computers Application (Master's Degree)</p>
+                    </div>
+                </div>
+                <div class="about-info">
+                    Hello, I'm Chetan Singh, I'm a passionate web developer adept at crafting visually appealing and
+                    responsive websites. Proficient in HTML, CSS, JavaScript, React, and MySQL, I bring ideas to life
+                    with a user-centric approach. My portfolio showcases diverse projects, reflecting a commitment to
+                    delivering high-quality, innovative solutions. Let's collaborate to transform your online vision
+                    into reality.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Section  -->
+    <div id="project">
+        <h5>Browse My Recent</h5>
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="project">
+                <img src="https://images.unsplash.com/photo-1616499370260-485b3e5ed653?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <h2>Image-Search App</h2>
+                <div class="project-btn">
+                    <a href="https://github.com/Crazyshinobi/Image-Search-App" target="_blank"><button
+                            class="gitbtn">Github</button></a>
+                    <a href="https://images3arch.netlify.app/" target="_blank"><button class="livebtn">Live
+                            Demo</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <h2>Movie App</h2>
+                <div class="project-btn">
+                    <a href="https://github.com/Crazyshinobi/MovieApp" target="_blank"><button
+                            class="gitbtn">Github</button></a>
+                    <a href="https://movi3app.netlify.app/" target="_blank"><button class="livebtn">Live
+                            Demo</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://images.unsplash.com/photo-1622760274068-a26adafc984f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <h2>Movie App</h2>
+                <div class="project-btn">
+                    <a href="https://github.com/Crazyshinobi/Currency-Converter" target="_blank"><button
+                            class="gitbtn">Github</button></a>
+                    <a href="https://currencyconv3rter.netlify.app/" target="_blank"><button class="livebtn">Live
+                            Demo</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Contact Section  -->
+    <div id="contact">
+        <h5>Get in Touch</h5>
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7005.641994745644!2d77.32704639013619!3d28.605146372026446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4e1a2851203%3A0x3fd3b6af64028b33!2sNew%20Kondli%2C%20Kondli%2C%20Delhi!5e0!3m2!1sen!2sin!4v1706170053266!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Enter your Name...." required />
+                    <input type="tel" placeholder="Enter your Mobile Number...." required />
+                    <textarea name="" id="" cols="30" rows="15" required></textarea>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2024 Chetan Singh. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
