@@ -352,6 +352,7 @@ h3 {
 .map iframe{
     border-radius: 1.25rem;
     width: 90%;
+    outline: none;
 }
 
 .form form{
@@ -473,6 +474,21 @@ footer{
         width: 60%;
         margin-bottom: 2rem;
     }
+
+}
+
+@media screen and (max-width: 500px) {
+    .project{
+        width: 80%;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        justify-content: space-between;
+    }
+
 
 }
 
