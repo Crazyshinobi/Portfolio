@@ -370,6 +370,7 @@ h3 {
     border-radius: 1.25rem;
     outline: none;
     border: 1px solid gray;
+    font-family: 'Rubik', sans-serif;
 }
 
 .form textarea{
