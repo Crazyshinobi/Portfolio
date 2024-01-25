@@ -76,15 +76,19 @@ body {
     transition: all ease 0.5s;
 }
 
+.mobile-navbar ul{
+    text-align: center;
+}
 .mobile-navbar ul li {
-    margin: 2rem 0;
+    margin: 4rem 0;
     padding: 0.8rem;
+    text-align: center;
 }
 
 .mobile-navbar ul li a {
     color: #fff;
     font-size: 1.5rem;
-    /* font-weight: bold; */
+    text-align: center;
 }
 
 
@@ -336,35 +340,36 @@ h3 {
     text-align: center;
 }
 
-.contact-container{
+.contact-container {
     display: flex;
     margin-top: 4rem;
 }
 
-.map, .form{
+.map,
+.form {
     width: 50%;
 }
 
-.map{
+.map {
     margin: 0 1.5rem;
     border-radius: 1.25rem;
 }
 
-.map iframe{
+.map iframe {
     border-radius: 1.25rem;
     width: 90%;
     outline: none;
     border: none;
 }
 
-.form form{
+.form form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 80%;
 }
 
-.form input{
+.form input {
     margin-bottom: 1.2rem;
     padding: 1rem;
     border-radius: 1.25rem;
@@ -373,7 +378,7 @@ h3 {
     font-family: 'Rubik', sans-serif;
 }
 
-.form textarea{
+.form textarea {
     margin-bottom: 1.2rem;
     padding: 1rem;
     border-radius: 1.25rem;
@@ -381,7 +386,7 @@ h3 {
     border: 1px solid gray;
 }
 
-.form button{
+.form button {
     padding: 1rem;
     border-radius: 1.25rem;
     outline: none;
@@ -391,16 +396,16 @@ h3 {
     outline: none;
     font-weight: bold;
     width: 50%;
-    align-self:  center;
+    align-self: center;
     font-size: 1rem;
 }
 
-.form button:hover{
+.form button:hover {
     background-color: rgb(26, 25, 25);
     cursor: pointer;
 }
 
-footer{
+footer {
     text-align: center;
     background-color: rgb(44, 44, 44);
     color: #fff;
@@ -411,8 +416,8 @@ footer{
     #contact {
         height: 100%;
     }
-    
-    .contact-container{
+
+    .contact-container {
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
@@ -420,24 +425,25 @@ footer{
         align-items: center;
     }
 
-    .map, .form{
+    .map,
+    .form {
         width: 100%;
     }
-    
-    .map iframe{
+
+    .map iframe {
         border-radius: 1.25rem;
         width: 90%;
         margin: 1.5rem 1.5rem;
     }
 
-    .form{
+    .form {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
 
-    .form button{
+    .form button {
         padding: 1rem;
         border-radius: 1.25rem;
         outline: none;
@@ -447,7 +453,7 @@ footer{
         outline: none;
         font-weight: bold;
         width: 50%;
-        align-self:  center;
+        align-self: center;
         font-size: 1rem;
         margin-bottom: 2rem;
     }
@@ -481,7 +487,7 @@ footer{
 }
 
 @media screen and (max-width: 609px) {
-    .project{
+    .project {
         width: 80%;
     }
 
@@ -517,7 +523,7 @@ footer{
         font-weight: bold;
         color: #fff;
     }
-    
+
 }
 
 
@@ -630,8 +636,6 @@ footer{
         align-content: center;
         width: 100%;
     }
-
-
 
 
 }
