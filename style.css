@@ -347,12 +347,14 @@ h3 {
 
 .map{
     margin: 0 1.5rem;
+    border-radius: 1.25rem;
 }
 
 .map iframe{
     border-radius: 1.25rem;
     width: 90%;
     outline: none;
+    border: none;
 }
 
 .form form{
